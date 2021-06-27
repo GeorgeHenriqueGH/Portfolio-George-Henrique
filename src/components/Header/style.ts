@@ -4,6 +4,7 @@ const Cabecalho = styled.header `
     header {
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -35,7 +36,7 @@ const Cabecalho = styled.header `
     nav.links ul li a {
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
-        font-size: 0.9em;
+        font-size: 0.8em;
         font-weight: bold;
         color: ${props => props.theme.colors.links};
     }
