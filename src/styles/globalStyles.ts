@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle `
         font-family: 'Roboto';
     }
     body {
-        background-color: ${props => props.theme.colors.secundaryBackground};
+        background-color: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.foreground};
     }
 `;

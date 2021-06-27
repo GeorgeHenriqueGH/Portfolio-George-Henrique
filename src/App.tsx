@@ -8,10 +8,10 @@ import gruvbox from './styles/themes/theme';
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={gruvbox}>
-          <div className="App">
-      <Routes/>
-      <GlobalStyles/>
-    </div>
+      <div className="App">
+        <Routes/>
+        <GlobalStyles/>
+      </div>
     </ThemeProvider>
   );
 }
