@@ -11,9 +11,10 @@ const Hero = styled.main `
         margin-top: 3%;
     }
     img.imageProfile {
-        border-radius: 50%;
         width: 200px;
         height: 200px;
+        border-radius: 50%;
+        border: 3px solid ${props => props.theme.colors.secundaryBackground};
     }
     h1 {
         font-family: 'Roboto', sans-serif;
@@ -25,7 +26,9 @@ const Hero = styled.main `
         font-family: 'Roboto', sans-serif;
         font-size: 1.1em;
         font-weight: 500;
-        line-height: 1.6em;
+        line-height: 1.9em;
+        min-width: 20%;
+        max-width: 60%;
     }
     strong {
         font-family: 'Roboto', sans-serif;

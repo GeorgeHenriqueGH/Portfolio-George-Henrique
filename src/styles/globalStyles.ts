@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle `
         font-family: 'Roboto';
     }
     body {
+        height: 100%;
         background-color: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.foreground};
     }

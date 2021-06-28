@@ -40,6 +40,7 @@ const Cabecalho = styled.header `
         font-weight: bold;
         color: ${props => props.theme.colors.links};
     }
+    nav.links ul li a:hover { color: ${props => props.theme.colors.foreground}; }
 `;
 
 export default Cabecalho;
