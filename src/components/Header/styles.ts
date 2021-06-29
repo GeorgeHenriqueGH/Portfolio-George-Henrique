@@ -33,14 +33,6 @@ const Cabecalho = styled.header `
         display: inline;
         padding: 1em;
     }
-    nav.links ul li a {
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        font-size: 0.8em;
-        font-weight: bold;
-        color: ${props => props.theme.colors.links};
-    }
-    nav.links ul li a:hover { color: ${props => props.theme.colors.foreground}; }
 `;
 
 export default Cabecalho;

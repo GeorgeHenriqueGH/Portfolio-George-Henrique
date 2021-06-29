@@ -8,7 +8,8 @@ const Hero = styled.main `
         align-items: center;
         text-align: center;
         line-height: 3rem;
-        margin-top: 3%;
+        margin-top: 4%;
+        height: 100%;
     }
     img.imageProfile {
         width: 200px;
@@ -21,20 +22,6 @@ const Hero = styled.main `
         font-weight: bolder;
         color: ${props => props.theme.colors.secundaryForeground};
         margin-bottom: 1%;
-    }
-    p {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.1em;
-        font-weight: 500;
-        line-height: 1.9em;
-        min-width: 20%;
-        max-width: 60%;
-    }
-    strong {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        font-size: 1em;
-        color: ${props => props.theme.colors.links};
     }
 `;
 

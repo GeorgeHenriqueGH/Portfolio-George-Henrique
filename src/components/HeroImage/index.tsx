@@ -16,6 +16,7 @@ const HeroImage: React.FC = () => {
                             <strong>Git/GitHub</strong>, <strong>Heroku</strong>, <strong>Linux</strong>, <strong>Docker</strong>, <strong>MySQL</strong>, <strong>PostgreSQL</strong>, <strong>Angular</strong>, <strong>ReactJS</strong>, <strong>SASS</strong>.
                         </p>
                 </main>
+                <hr />
             </Hero>
         </>
     );

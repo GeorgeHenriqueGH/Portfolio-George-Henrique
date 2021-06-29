@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom"
-
-import Cabecalho from "./style";
+import Cabecalho from "./styles";
 
 const Header: React.FC = () => {
     return (
@@ -10,17 +8,6 @@ const Header: React.FC = () => {
                     <div className="center">
                         <p className="text-logo">George Henrique</p>
                         <nav className="links">
-                            <ul>
-                                <li>
-                                    <Link to="#">SOBRE MIM</Link>
-                                </li>
-                                <li>
-                                    <Link to="#">CONTATOS</Link>
-                                </li>
-                                <li>
-                                    <Link to="#">PROJETOS</Link>
-                                </li>
-                            </ul>
                             <ul>
                                 <li>
                                     <a href="https://www.github.com/GeorgeHenriqueGH/">
