@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/no-anonymous-default-export
-export default {
+const theme = {
     title: "gruvbox",
     colors: {
         background: "#1D2021",
@@ -8,4 +7,6 @@ export default {
         secundaryForeground: "#D65D0E",
         links: "#CC241D"
     },
-};
+}
+
+export default theme;
