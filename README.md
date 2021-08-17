@@ -1,4 +1,4 @@
-## Portfólio de projetos e apresentação.
+## 📁 Portfólio de projetos e apresentação.
 
 Foi usado **ReactJS** nesse potfólio com **TypeScript**.
 
@@ -19,3 +19,7 @@ Então eu tive que fazer o deploy no **Netlify** que funcionou perfeitamente.
 #### Imagem do site:
 
 ![Imagem site](app.png)
+
+#### Update imagem do site mobile: 
+
+![Imagem do site mobile](mobile-device.png)

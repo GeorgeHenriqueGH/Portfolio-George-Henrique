@@ -23,6 +23,19 @@ const Hero = styled.main `
         color: ${props => props.theme.colors.secundaryForeground};
         margin-bottom: 1%;
     }
+    // TV Device 
+    @media (min-width: 1440px) and (max-width: 2560px) {
+        main.HeroImage {
+            margin-top: 30%;
+
+        }
+        h1 { font-size: 3em; }
+        p { 
+            font-size: 1.5em; 
+            min-width: 30%;
+            max-width: 80%;
+        }
+    }
 `;
 
 export default Hero;
