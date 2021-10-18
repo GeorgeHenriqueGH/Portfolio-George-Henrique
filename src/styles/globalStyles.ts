@@ -8,6 +8,7 @@ const GlobalStyles = createGlobalStyle `
         box-sizing: border-box;
         font-family: 'Roboto';
     }
+    html { height: 100%; }
     body {
         display:flex; 
         flex-direction:column; 
