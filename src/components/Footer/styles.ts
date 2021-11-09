@@ -2,20 +2,11 @@ import styled from "styled-components";
 
 const Rodape = styled.footer `
     footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        position: absolute;
-        right: 0;
+        position: static;
         bottom: 0;
         left: 0;
-        background-color: rgba(60,56,54, 0.7);
-    }
-    .rodape {
         width: 100%;
-        text-align: center;
+        background-color: rgba(60,56,54, 0.7);
     }
     p {
         line-height: 1.5pc;
@@ -29,6 +20,13 @@ const Rodape = styled.footer `
         color: #009638;
         font-weight: bolder;
         font-size: 1.3em;
+    }
+    @media(min-width: 768px) and (max-width: 2560px) {
+        footer {
+            position:absolute;
+            bottom:0;
+            width:100%;
+        }
     }
 `;
 

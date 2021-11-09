@@ -9,7 +9,7 @@ const Hero = styled.main `
         text-align: center;
         line-height: 3rem;
         margin-top: 4%;
-        height: 100%;
+        min-height: 100%;
     }
     img.imageProfile {
         width: 200px;

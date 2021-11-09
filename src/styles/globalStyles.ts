@@ -10,11 +10,15 @@ const GlobalStyles = createGlobalStyle `
     }
     html { height: 100%; }
     body {
-        display:flex; 
-        flex-direction:column; 
-        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
         background-color: ${props => props.theme.colors.background};
         color: ${props => props.theme.colors.foreground};
+    }
+    .App {
+        height: 100%;
+        min-height: 100vh;    
     }
     p {
         font-family: 'Roboto', sans-serif;
